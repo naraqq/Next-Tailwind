@@ -1,8 +1,8 @@
 function Main() {
   return (
-    <div className="bg-fuchsia-900 p-5 md:flex w-full">
+    <div className="bg-fuchsia-900 p-5 md:flex w-full pb-5">
       <div className="md:w-10/12">
-        <h1 className="text-4xl font-bold text-center text-white mb-4">
+        <h1 className="text-4xl font-bold text-center text-white mb-4 lg:text-6xl">
           Great teamwork starts with a{" "}
           <span className="text-yellow-300">digital HQ</span>
         </h1>
@@ -14,7 +14,7 @@ function Main() {
           GET SLACK FOR ANDROID
         </button>
       </div>
-      <div className="bg-fuchsia-900 mb-5 overflow-hidden h-60">
+      <div className="bg-fuchsia-900 mb-5 overflow-hidden h-100 lg:mb-100">
         <video
           data-js-id="hero"
           aria-describedby="hero"
